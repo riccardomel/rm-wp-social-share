@@ -1,0 +1,113 @@
+.social-single-padder{
+    overflow:hidden;
+    padding: 0px!important;
+    border-bottom: solid 1px #e6e6e6!important;
+    width:100%!important;
+}
+
+.shareBox{
+    overflow: hidden; 
+    width: 100%;
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: -webkit-flex!important;
+    display: flex!important;
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    -webkit-justify-content: center!important;
+    justify-content: center!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    -webkit-align-items: center!important;
+    align-items: center!important;
+}
+
+.shareBox ul{
+    padding:10px;
+    width:100%;
+    border-bottom: none!important;
+    overflow: auto; 
+    list-style-type: none; 
+    margin: 0px;
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: -webkit-flex!important;
+    display: flex!important;
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    -webkit-justify-content: center!important;
+    justify-content: center!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    -webkit-align-items: center!important;
+    align-items: center!important;
+}
+
+.share_btn{
+    float: left!important;
+    padding: 5px 15px!important;
+    border-radius: 5px!important;
+    margin-right: 5px!important;
+    font-size: 14px!important;
+}
+
+.share_btn.facebook{
+    background-color: #3b5998!important;
+    color: #fff!important;
+}
+
+.share_btn.whatsapp{
+    background-color: #25d366!important;
+    color: #fff!important;
+}
+
+.share_btn.pinterest{
+    background-color: #BD081C!important;
+    color: #fff!important;
+}
+
+.share_btn.twitter{
+    background-color: #38A1F3!important;
+    color: #fff!important;
+}
+
+.share_btn.linkedin{
+    background-color: #0077B5!important;
+    color: #fff!important;
+}
+
+.share_btn.print{
+    background-color: #d2d2d2;
+    color: #333;
+}
+
+.results_share {
+  float: right; 
+  padding: 0px 0px 0px 10px;  
+}
+
+.mobileshare { 
+    display: none; 
+}
+
+.mobileshare { 
+    padding-left: 10px; 
+}
+
+/*Media Queries*/
+@media (min-width: 768px) {
+    .mobileshare { 
+        display: inline-block; 
+    }
+    .share_btn.whatsapp{
+        background-color: #25d366!important;
+        color: #fff!important;
+        display:none;
+    }
+    .social-single-padder{
+        padding: 0px!important;
+    }
+    .shareBox ul{
+        padding:15px!important;
+    }
+}
