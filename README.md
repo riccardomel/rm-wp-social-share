@@ -27,7 +27,7 @@ Wordpress Social Share Plugin - Clean, Fast, Simple. With Favorities integration
 
 ## Screenshots
 
-![img](https://riccardomel.com/github/screenshots/rm-wp-social-share/rm-wp-social-share_3.png)
+![img](https://riccardomel.com/github/screenshots/rm-wp-social-share/rm-wp-social-share_3_1.png)
 ![img](https://riccardomel.com/github/screenshots/rm-wp-social-share/rm-wp-social-share_1.png)
 ![img](https://riccardomel.com/github/screenshots/rm-wp-social-share/rm-wp-social-share_2.png)
 
